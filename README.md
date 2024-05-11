@@ -7,5 +7,8 @@
 - CSS
     - Flexbox
     - Animations
-    - Psuedoclasses
-    
+    - Pseudoclasses
+
+## Wireframes
+
+![Wireframe of index page Desktop Version] (./images/Wireframe)

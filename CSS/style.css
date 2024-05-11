@@ -1,5 +1,6 @@
 * {
     --blue-light: #AEC5EB;
+    --Coral: #FF7158;
     color: black
 }
 body {
@@ -11,4 +12,40 @@ body {
     text-align:center;
     /* align items is vertical */
     align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    /* text align is horizontal; */
+    text-align:center;
+    /* align items is vertical */
+    align-items: center;
+}
+
+.logo{
+    height: 150px;
+    width:  150px;
+    background-color:var(--Coral);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 50%;
+}
+.logo p{
+    background-color: black;
+    color: var(--Coral);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 30%;
+}
+nav a{
+    text-decoration: none;
+    background-color: black;
+    color: var(--blue-light);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
 }

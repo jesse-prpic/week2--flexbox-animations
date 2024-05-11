@@ -4,7 +4,7 @@
     color: black
 }
 body {
-    background-color: var(--blue-light);
+    background-image: linear-gradient(rgba(174, 197, 235, 0),rgba(174, 197, 235, 1));
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,13 @@ nav a{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border-radius: 15%;
+}
 
+nav a:hover{
+    background-color:var(--Coral);
+    color: black;
+    animation-name: spin;
+    animation-duration: 3sec;
 }
 .training-option{
     margin-top: 15dvw;
@@ -70,12 +76,25 @@ nav a{
          /* align items is vertical */
         align-items: center;
     }
+
+@keyframes spin {
+     0% {
+        transform: rotate(0deg);
+
+    }
+    
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+    
 .training-option{
     margin-top: 5dvw;
 }
 .training-option img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
     
 }

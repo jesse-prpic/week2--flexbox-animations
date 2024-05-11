@@ -47,5 +47,35 @@ nav a{
     padding: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    border-radius: 15%;
 
+}
+.training-option{
+    margin-top: 15dvw;
+    background-color:var(--Coral);
+    padding: 1rem;
+    border-radius: 5%;
+}
+.training-option img{
+    width:75dvw;
+}
+
+@media screen and (min-width: 600px) {
+    main{
+        display: flex;
+        flex: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+         /* align items is vertical */
+        align-items: center;
+    }
+.training-option{
+    margin-top: 5dvw;
+}
+.training-option img{
+    width: 300px;
+    height: 300px;
+}
+    
 }
